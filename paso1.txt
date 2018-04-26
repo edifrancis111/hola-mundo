@@ -1,0 +1,16 @@
+Tu identidad
+
+Lo primero que deberías hacer cuando instalas Git es establecer tu nombre de usuario 
+y dirección de correo electrónico. Esto es importante porque las confirmaciones de 
+cambios (commits) en Git usan esta información, y es introducida de manera inmutable en los commits que envías:
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+$ git config --global user.name "frank"
+$ git config --global user.email edifrancis111@gmail.com
+
+
+$ git config --list
+
+
